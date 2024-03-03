@@ -1,0 +1,38 @@
+.contato{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-roboto);
+
+    & h2{
+        margin-bottom: 2em;
+        font-family: var(--font-code);
+        padding-inline: 1em;
+    }
+
+    & p{
+        margin-bottom: 2em;
+        padding-inline: 1em;
+    }
+    
+    & .icons_container{
+        width: 70vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        & a{
+            color: var(--color-primary)
+        }
+    }
+
+    & .icon{
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width:450px){
+    .icons_container{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,29 @@
+:root {
+
+  --font-roboto: "Roboto Mono", monospace;
+  --font-code: "Press Start 2P", system-ui;
+  --font-hand: "Shadows Into Light", cursive;
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-primary: #02354D;
+  --color-secondary:#F0E94F;
+  --color-terceary:#F04F64;
+  --color-alter-1:#9B676D;
+  --color-alter-2:#5D6A70;
+  --color-white:#fefefe;
+  --color-soft-white: #f1f1f1;
+  --color-black: #111;
+  --color-gray:#222;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+

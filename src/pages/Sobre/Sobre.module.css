@@ -1,0 +1,130 @@
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img_sobre {
+    width: 500px;
+    padding: 2rem;
+}
+.sobre {
+    padding: 5em;
+
+    & h2 {
+        font-family: var(--font-code);
+        color: var(--color-primary);
+        margin-bottom: 1em;
+    }
+
+    & p {
+        font-family: var(--font-roboto);
+        margin-bottom: 1em;
+    }
+
+    & .assinatura {
+        font-family: var(--font-hand);
+        font-size: 2rem;
+    }
+    & h3{
+        text-align: center;
+        font-family: var(--font-roboto);
+        color: var(--color-primary);
+    }
+    
+}
+/* .divisor{
+    width: 70%;
+    margin: 0 auto 2rem auto;
+    color: var(--color-black);
+} */
+.stacks{
+    display: flex;
+    justify-content: space-around;
+
+    & .stack{
+        font-size: 3em;
+        margin-top: 1rem;
+        color: var(--color-black);
+    }
+}
+
+@media screen and (max-width: 450px){
+    section{
+        flex-direction: column;
+
+
+    }
+
+    figure{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img_sobre{
+        width: 50%;
+        margin-block: 2em;
+    }
+
+    .sobre{
+        width: 100vw;
+        padding: 1em;
+
+        & h2{
+            font-size: 1.3em;
+            text-align: center;
+        }
+
+        & p{
+            text-align: justify;
+        }
+        & .assinatura{
+            font-size: .9em;
+            text-align: end;
+        }
+        .stacks{
+            flex-wrap: wrap;
+            padding-block: 1em;
+        }
+    }
+}
+@media screen and (max-width:900px){
+    section{
+        flex-direction: column;
+    }
+
+    figure{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img_sobre{
+        width: 80%;
+        margin-block: 2em;
+    }
+    
+    .sobre{
+        width: 100vw;
+        padding: 1em;
+
+        & h2{
+            font-size: 1.3em;
+            text-align: center;
+            margin-top: 2em;
+        }
+
+        & p{
+            text-align: justify;
+            margin-block: 2em;
+
+        }
+        & .assinatura{
+            font-size: 1em;
+            text-align: end;
+        }
+        .stacks{
+            flex-wrap: wrap;
+            padding-block: 1em;
+        }
+    }
+}
