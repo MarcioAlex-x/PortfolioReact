@@ -11,7 +11,7 @@ const Home = () => {
         <span>e</span>
         <p>Professor de Programação</p>
 
-        <Link to="/" className={`${styles.btn} ${styles.btn_red}`}>
+        <Link to="/projetos" className={`${styles.btn} ${styles.btn_red}`}>
           Conheça mais
         </Link>
       </div>
