@@ -11,7 +11,7 @@ const Projetos = () =>{
 
     useEffect(()=>{
         const getInfos = async () =>{
-            const reposnse  = await fetch('https://api.github.com/users/MarcioAlex-x?page=1&per_page=80')
+            const reposnse  = await fetch('https://api.github.com/users/MarcioAlex-x?page=1&per_page=50')
             const data = await reposnse.json()
             setInfos(data)
         }
