@@ -44,7 +44,7 @@ const Projetos = () =>{
                 </div>
             </div>
 
-             <h2>Meus dos projetos</h2>
+             <h2>Alguns projetos</h2>
              {
                 repositories.length > 0 ? (
                     
